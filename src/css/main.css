@@ -461,11 +461,22 @@ template {
   position: absolute;
   align-items: center; }
 
+.main_icon {
+  width: 150px;
+  height: 150px;
+  background-size: cover;
+  margin-top: 25px;
+  margin-left: 30px;
+  background-image: url("../assets/images/md.png");
+  position: absolute;
+  z-index: 1; }
+
 .description {
   display: flex;
   justify-content: center;
   color: #1715a7;
-  font-family: 'Roboto-Light'; }
+  font-family: 'Roboto-Light';
+  font-size: 1.3vw; }
 
 .my_name {
   display: flex;
@@ -483,4 +494,14 @@ template {
   font-family: 'Roboto-Bold';
   color: #1715a7;
   background: rgba(0, 0, 0, 0.03);
-  margin-top: 2%; }
+  margin-top: 2%;
+  font-size: 1.3vw; }
+
+.second_page {
+  width: 100%;
+  height: 100vh; }
+
+.about_me {
+  text-align: center;
+  font-family: 'Roboto-Bold';
+  margin-top: 6%; }
